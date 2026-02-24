@@ -208,10 +208,14 @@ button.primary,
 
 #header .logo {
   color: #f4f9ff;
-  border-color: rgba(193, 214, 236, 0.7);
-  min-width: 20rem;
+  border: 0;
+  min-width: 0;
   text-align: center;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
+  font-size: 1.2rem;
+  padding: 0;
+  line-height: 1;
+  height: auto;
 }
 
 #nav {
@@ -538,8 +542,8 @@ button.primary,
 
   #header .logo {
     min-width: 0;
-    width: 100%;
-    max-width: 20rem;
+    width: auto;
+    max-width: none;
   }
 }
 
